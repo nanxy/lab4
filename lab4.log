@@ -1,0 +1,17 @@
+﻿Build started 5/25/2017 2:54:35 PM.
+     1>Project "C:\Users\Nancy\Documents\School\C++ 22B\lab4\lab4\lab4.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nancy\Documents\School\C++ 22B\lab4\Debug\lab4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nancy\Documents\School\C++ 22B\lab4\Debug\lab4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nancy\Documents\School\C++ 22B\lab4\Debug\lab4.lib" /MACHINE:X86 Debug\Encryption.obj
+         Debug\Message.obj
+     1>Message.obj : error LNK2005: "public: __thiscall Message::Message(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Message@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Encryption.obj
+     1>Message.obj : error LNK2005: "public: virtual __thiscall Message::~Message(void)" (??1Message@@UAE@XZ) already defined in Encryption.obj
+     1>Message.obj : error LNK2005: "public: void __thiscall Message::decode(void)" (?decode@Message@@QAEXXZ) already defined in Encryption.obj
+     1>Message.obj : error LNK2005: "public: void __thiscall Message::dump(void)const " (?dump@Message@@QBEXXZ) already defined in Encryption.obj
+     1>Message.obj : error LNK2005: "public: void __thiscall Message::fixCapitalization(void)" (?fixCapitalization@Message@@QAEXXZ) already defined in Encryption.obj
+     1>Message.obj : error LNK2005: "public: bool __thiscall Message::isEmpty(void)const " (?isEmpty@Message@@QBE_NXZ) already defined in Encryption.obj
+     1>LINK : fatal error LNK1561: entry point must be defined
+     1>Done Building Project "C:\Users\Nancy\Documents\School\C++ 22B\lab4\lab4\lab4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.24
